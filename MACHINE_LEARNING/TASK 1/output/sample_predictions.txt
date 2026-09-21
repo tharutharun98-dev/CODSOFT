@@ -1,0 +1,11 @@
+Sample predictions on unseen plot summaries:
+
+Plot: A detective hunts a serial killer leaving riddles at every murder scene in a rain-soaked city.
+Predicted Genre: thriller
+
+Plot: Two best friends fall in love while running a struggling bakery together.
+Predicted Genre: romance
+
+Plot: A spaceship crew wakes from cryosleep to find their ship overrun by an alien organism.
+Predicted Genre: sci-fi
+

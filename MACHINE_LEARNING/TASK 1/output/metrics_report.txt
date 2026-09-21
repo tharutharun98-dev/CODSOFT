@@ -1,0 +1,59 @@
+TASK 1: MOVIE GENRE CLASSIFICATION - MODEL COMPARISON
+=======================================================
+
+Naive Bayes: Accuracy = 1.0000
+              precision    recall  f1-score   support
+
+      action       1.00      1.00      1.00         8
+   animation       1.00      1.00      1.00         8
+      comedy       1.00      1.00      1.00         8
+ documentary       1.00      1.00      1.00         8
+       drama       1.00      1.00      1.00         8
+      family       1.00      1.00      1.00         8
+      horror       1.00      1.00      1.00         8
+     romance       1.00      1.00      1.00         8
+      sci-fi       1.00      1.00      1.00         8
+    thriller       1.00      1.00      1.00         8
+
+    accuracy                           1.00        80
+   macro avg       1.00      1.00      1.00        80
+weighted avg       1.00      1.00      1.00        80
+
+Logistic Regression: Accuracy = 1.0000
+              precision    recall  f1-score   support
+
+      action       1.00      1.00      1.00         8
+   animation       1.00      1.00      1.00         8
+      comedy       1.00      1.00      1.00         8
+ documentary       1.00      1.00      1.00         8
+       drama       1.00      1.00      1.00         8
+      family       1.00      1.00      1.00         8
+      horror       1.00      1.00      1.00         8
+     romance       1.00      1.00      1.00         8
+      sci-fi       1.00      1.00      1.00         8
+    thriller       1.00      1.00      1.00         8
+
+    accuracy                           1.00        80
+   macro avg       1.00      1.00      1.00        80
+weighted avg       1.00      1.00      1.00        80
+
+Linear SVM: Accuracy = 1.0000
+              precision    recall  f1-score   support
+
+      action       1.00      1.00      1.00         8
+   animation       1.00      1.00      1.00         8
+      comedy       1.00      1.00      1.00         8
+ documentary       1.00      1.00      1.00         8
+       drama       1.00      1.00      1.00         8
+      family       1.00      1.00      1.00         8
+      horror       1.00      1.00      1.00         8
+     romance       1.00      1.00      1.00         8
+      sci-fi       1.00      1.00      1.00         8
+    thriller       1.00      1.00      1.00         8
+
+    accuracy                           1.00        80
+   macro avg       1.00      1.00      1.00        80
+weighted avg       1.00      1.00      1.00        80
+
+
+Best performing model: Naive Bayes (1.0000 accuracy)
