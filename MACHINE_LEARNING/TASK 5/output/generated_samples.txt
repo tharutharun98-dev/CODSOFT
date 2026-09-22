@@ -1,0 +1,18 @@
+TASK 5: HANDWRITTEN TEXT GENERATION - MODEL OUTPUT
+=======================================================
+
+Training corpus size: 981 characters, vocab size: 28
+Final smoothed loss after 6000 iterations: 43.1443
+
+Generated sample (400 characters), sampled character-by-character
+from the trained RNN's learned probability distribution:
+
+he be a thence brip dcy aog
+ie thy tiaty y meithoseres is pow thence incocle minisilerlwhy taktrenkerste eve lermiay
+the
+phe the thy terdime te the lijceveakerdsepstioiryrserd thy toumer lievevet bencoherdnpy yiy
+to tio pat anere porealinitik is werrely taken eath in act in pea tictrink e way
+woumste the peles the foa weryest ture perd breand
+potilittorlphy wit is simion
+belesto serro pling
+of eve
