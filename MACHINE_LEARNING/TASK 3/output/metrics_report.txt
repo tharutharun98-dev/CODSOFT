@@ -1,0 +1,53 @@
+TASK 3: CUSTOMER CHURN PREDICTION - MODEL COMPARISON
+=======================================================
+
+Logistic Regression:
+  accuracy: 0.6200
+  precision: 0.2605
+  recall: 0.6602
+  f1: 0.3736
+  roc_auc: 0.7032
+
+              precision    recall  f1-score   support
+
+      Stayed       0.90      0.61      0.73       497
+     Churned       0.26      0.66      0.37       103
+
+    accuracy                           0.62       600
+   macro avg       0.58      0.64      0.55       600
+weighted avg       0.79      0.62      0.67       600
+
+Random Forest:
+  accuracy: 0.8283
+  precision: 0.5000
+  recall: 0.0291
+  f1: 0.0550
+  roc_auc: 0.6823
+
+              precision    recall  f1-score   support
+
+      Stayed       0.83      0.99      0.91       497
+     Churned       0.50      0.03      0.06       103
+
+    accuracy                           0.83       600
+   macro avg       0.67      0.51      0.48       600
+weighted avg       0.77      0.83      0.76       600
+
+Gradient Boosting:
+  accuracy: 0.8167
+  precision: 0.3158
+  recall: 0.0583
+  f1: 0.0984
+  roc_auc: 0.6815
+
+              precision    recall  f1-score   support
+
+      Stayed       0.83      0.97      0.90       497
+     Churned       0.32      0.06      0.10       103
+
+    accuracy                           0.82       600
+   macro avg       0.57      0.52      0.50       600
+weighted avg       0.74      0.82      0.76       600
+
+
+Best model (highest F1-score): Logistic Regression
