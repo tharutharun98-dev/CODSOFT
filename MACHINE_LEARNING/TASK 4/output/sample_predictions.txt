@@ -1,0 +1,11 @@
+Sample predictions on unseen SMS messages:
+
+Message: Congratulations! You've been chosen to win a brand new car. Click now!
+Prediction: spam
+
+Message: Hey, are you free to grab dinner tonight around 7?
+Prediction: ham
+
+Message: URGENT: verify your bank account now or it will be suspended today.
+Prediction: spam
+

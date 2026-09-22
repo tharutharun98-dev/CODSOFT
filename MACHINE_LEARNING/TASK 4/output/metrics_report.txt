@@ -1,0 +1,50 @@
+TASK 4: SPAM SMS DETECTION - MODEL COMPARISON
+=======================================================
+
+Naive Bayes:
+  accuracy: 1.0000
+  precision: 1.0000
+  recall: 1.0000
+  f1: 1.0000
+
+              precision    recall  f1-score   support
+
+         ham       1.00      1.00      1.00       100
+        spam       1.00      1.00      1.00        50
+
+    accuracy                           1.00       150
+   macro avg       1.00      1.00      1.00       150
+weighted avg       1.00      1.00      1.00       150
+
+Logistic Regression:
+  accuracy: 1.0000
+  precision: 1.0000
+  recall: 1.0000
+  f1: 1.0000
+
+              precision    recall  f1-score   support
+
+         ham       1.00      1.00      1.00       100
+        spam       1.00      1.00      1.00        50
+
+    accuracy                           1.00       150
+   macro avg       1.00      1.00      1.00       150
+weighted avg       1.00      1.00      1.00       150
+
+Linear SVM:
+  accuracy: 1.0000
+  precision: 1.0000
+  recall: 1.0000
+  f1: 1.0000
+
+              precision    recall  f1-score   support
+
+         ham       1.00      1.00      1.00       100
+        spam       1.00      1.00      1.00        50
+
+    accuracy                           1.00       150
+   macro avg       1.00      1.00      1.00       150
+weighted avg       1.00      1.00      1.00       150
+
+
+Best model: Naive Bayes
